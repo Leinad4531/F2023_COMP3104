@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
-  "keywords": ["devops", "nodejs", "express", "web"],
+  "keywords": ["devops", "NodeJs", "express", "web"],
   "author": "Daniel Akindun",
   "license": "ISC"
 }

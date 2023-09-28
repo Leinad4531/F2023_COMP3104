@@ -4,7 +4,8 @@
   "description": "- Daniel \r - Akindun",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js"
   },
   "keywords": ["devops", "NodeJs", "express", "web"],
   "author": "Daniel Akindun",

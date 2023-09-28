@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\"",
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leinad4531/F2023_COMP3104.git"
+  },
   "keywords": ["devops", "NodeJs", "express", "web"],
-  "author": "Daniel Akindun",
+  "author": "Daniel Akindun 101384910",
   "license": "ISC"
 }

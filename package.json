@@ -4,14 +4,43 @@
   "description": "- Daniel \r - Akindun",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
-    "start": "node index.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Warning: No tests created yet.\"",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Leinad4531/F2023_COMP3104.git"
   },
-  "keywords": ["devops", "NodeJs", "express", "web"],
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1",
+    "travis": "^0.1.1",
+    "yarn": "^1.13.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    "> 0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "keywords": [
+    "devops",
+    "NodeJs",
+    "express",
+    "web"
+  ],
   "author": "Daniel Akindun 101384910",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "web-vitals": "^3.5.0"
+  }
 }
